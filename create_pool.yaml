@@ -1,0 +1,18 @@
+---
+
+- name: Create a VIP, pool and pool members
+  hosts: all
+  connection: local
+
+  tasks:
+    - name: Create a pool
+      bigip_pool:
+        server: 34.67.4.172
+        user: admin
+        password: Mar5827532**
+        server_port: 8443
+        validate_certs: no
+        lb_method: least-sessions
+        name: pool_test
+        slow_ramp_time: 120
+      delegate_to: localhost
