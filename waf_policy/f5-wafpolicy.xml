@@ -388,9 +388,9 @@
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
     <violation name="Malformed GWT data" id="MALFORMED_GWT">
-      <alarm>false</alarm>
-      <block>false</block>
-      <learn>false</learn>
+      <alarm>true</alarm>
+      <block>true</block>
+      <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
     <violation name="Disallowed file upload content detected" id="DISALLOWED_FILE_UPLOAD_CONTENT">
