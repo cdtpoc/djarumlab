@@ -1,22 +1,18 @@
 ---
 
-- name: Import ASM policy
-  bigip_asm_policy_import:
-    name: new_asm_policy_test
-    file: /djarumlab/waf_policy/f5-wafpolicy.xml
-    provider:
-      server: lb.mydomain.com
-      user: admin
-      password: secret
-  delegate_to: localhost
+- name: create_waf_policy
+  hosts: all
+  connection: local
 
-# - name: Override existing ASM policy
-  # bigip_asm_policy:
-    # name: new_asm_policy
-    # file: /root/asm_policy_new.xml
-    # force: yes
-    # provider:
-      # server: lb.mydomain.com
-      # user: admin
-      # password: secret
-  # delegate_to: localhost
+  tasks:
+    - name: Create a pool
+      bigip_asm_policy:
+        server: 34.67.4.172
+        user: admin
+        password: Mar5827532**
+        server_port: 8443
+        validate_certs: no
+        name: asm_policy_2
+        file: /var/lib/jenkins/workspace/djarum_lab/waf_policy/f5-wafpolicy.xml
+        active: yes
+      delegate_to: localhost
