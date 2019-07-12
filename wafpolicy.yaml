@@ -1,7 +1,7 @@
 - name: Import ASM policy
   bigip_asm_policy_import:
     name: new_asm_policy
-    file: /root/asm_policy.xml
+    file: /djarumlab/waf_policy/f5-wafpolicy.xml
     provider:
       server: lb.mydomain.com
       user: admin
