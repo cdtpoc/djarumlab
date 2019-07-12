@@ -112,9 +112,9 @@
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
     <violation name="Malformed XML data" id="MALFORMED_XML">
-      <alarm>false</alarm>
-      <block>false</block>
-      <learn>false</learn>
+      <alarm>true</alarm>
+      <block>true</block>
+      <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
     <violation name="CSRF attack detected" id="CSRF">
