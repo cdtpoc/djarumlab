@@ -113,7 +113,7 @@
     </violation>
     <violation name="Malformed XML data" id="MALFORMED_XML">
       <alarm>false</alarm>
-      <block>false</block>
+      <block>true</block>
       <learn>false</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
