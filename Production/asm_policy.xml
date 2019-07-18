@@ -8,7 +8,7 @@
     <last_change>Policy Building Settings Policy Building Settings [update]: Internal Statistics have been updated { audit: policy = /Common/asm_policy, component = Policy Builder }</last_change>
   </policy_version>
   <encoding>utf-8</encoding>
-  <description>Rapid Deployment Policy</description>
+  <description>Rapid Deployment Policy 2.0</description>
   <case_insensitive>false</case_insensitive>
   <owa>false</owa>
   <protocol_free>false</protocol_free>
