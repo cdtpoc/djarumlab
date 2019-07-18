@@ -78,7 +78,7 @@
     <violation name="Request length exceeds defined buffer size" id="REQUEST_TOO_LONG">
       <alarm>false</alarm>
       <block>false</block>
-      <learn>false</learn>
+      <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
     <violation name="Virus detected" id="VIRUS_DETECTED">
