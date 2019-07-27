@@ -114,7 +114,7 @@
     <violation name="Malformed XML data" id="MALFORMED_XML">
       <alarm>false</alarm>
       <block>true</block>
-      <learn>false</learn>
+      <learn>true</learn>
       <policy_builder_tracking>enabled</policy_builder_tracking>
     </violation>
     <violation name="CSRF attack detected" id="CSRF">
